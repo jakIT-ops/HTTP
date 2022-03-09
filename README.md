@@ -7,11 +7,14 @@
 
 [Overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 ------------------------
+![HTTP](./src/img/http.PNG)
 
 [HTTP Cache](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
 ------------------------
 Вэб кэш нь саатал болон сүлжээний урсгалыг багасгаж нөөцийн дүрслэлийг харуулахахд шаардагдах хугацааг багасагдаг
 Жишээ нь: Өмнө орж байсан сайт-д өгөгдөл кэш-д хадаглагдсан бол хурдан уншина гэсэн үг. Санах ой гэж хэлж болно.
+
+![Cache](./src/img/cookie.PNG)
 
 [HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 ------------------------
@@ -22,11 +25,15 @@ HTTP cookie(web cookie, browser cookie) нь серверээс хэрэглэг
 ------------------------
 HTTP header-д суурилсан механизм бөгөөд Тухайн Server-ийг ямар ч Origin - руу (домэйн, sceme эсвэл порт)-оор зааж өгөх боломжийг олгодог.
 
+![cors](./src/img/cors.PNG)
+
 [HTTP Messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
 -------------------------
 HTTP мессеж нь server болон client хооронд өгөгдөл солилцохыг хэлнэ. 
 * **request** : вэб дээр үйлдэл хийхийн тулд client - ээс сервер лүү хүсэлт илгээнэ.
 * **response** : client - тээс ирсэн хүсэлтэд хариулах ийг хэлнэ.
+
+![message](./src/img/message.PNG)
 
 [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 -----------------------
